@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <!-- FAVICON -->
+<link rel="icon" type="image/png" href="./imatges/LOGOWEB.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria d'Esdeveniments</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Menú principal"></label>
+    <div class="logo">
+            <a href="index.html" class="logo-link">
+                <img src="./imatges/LOGOWEB.png" alt="Logo festival" width="120">
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="dates.html">Dates</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+                <li><a href="registre.html">Registre</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="galeria">
+            <h1 class="page-title">Galeria d'esdeveniments</h1>
+            <p class="page-intro">Descobreix moments dels nostres esdeveniments passats amb un slider d'imatges i una selecció destacada en graella.</p>
+
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide"><img src="./imatges/festi1h.jpg" alt="Imatge esdeveniment 1"></div>
+                    <div class="slide"><img src="./imatges/festi2h.jpg" alt="Imatge esdeveniment 2"></div>
+                    <div class="slide"><img src="./imatges/festi3.hjpg.jpg" alt="Imatge esdeveniment 3"></div>
+                    <div class="slide"><img src="./imatges/festi4h.jpg" alt="Imatge esdeveniment 4"></div>
+                    <div class="slide"><img src="./imatges/festi5h.jpg" alt="Imatge esdeveniment 5"></div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev" aria-label="Anterior">&#10094;</button>
+                    <button class="slider-next" aria-label="Següent">&#10095;</button>
+                </div>
+            </div>
+
+            <div class="gallery-grid">
+                <img src="./imatges/festi1.jpg" alt="Galeria 1">
+                <img src="./imatges/festi2.jpg" alt="Galeria 2">
+                <img src="./imatges/festi3.jpg" alt="Galeria 3">
+                <img src="./imatges/festi4.jpg" alt="Galeria 4">
+            </div>
+        </section>
+    </main>
+
+    <script src="./animacions.js"></script>
+   
+</body>
+</html>
+</body>
+</html>
